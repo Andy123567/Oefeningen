@@ -24,7 +24,7 @@ alert(`${Zin1} dit is een doorlopende tekst ${Zin2} en ${Zin3}`);
 alert(output);
 
 // Oefening 3
-let koekje = 'Ik wil een koekje';
+let koekje = 'Ik wil een koekje'
 console.log(koekje.charAt(0));
 console.log(koekje.charAt(3));
 console.log(koekje.lastIndexOf('k'));
