@@ -1,6 +1,6 @@
 // Oefening 1
 window.onload = function (){
-    Oefening4()
+    Oefening1()
 }
 let Zin1, Zin2, Zin3;
 
@@ -72,7 +72,7 @@ function Promp4(){
 // oefeningen deel 3
 
 //Controle structuren
-function oefening1(){
+function Oefening1(){
     let geboortejaar = parseInt( prompt('Geef je geboortejaar'));
     let datum = new Date().getFullYear();
     let leeftijd = datum - geboortejaar;
