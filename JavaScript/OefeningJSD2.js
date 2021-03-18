@@ -213,11 +213,26 @@ function Oefening8() {
 }
 
 function Oefening9(){
-    let tafel;
-    let getal = parseInt(prompt('Geef een getal van 1 tot 10'));
-    if (getal === 1){
-        tafel = ''
+
+    let tafelVan1 =
+        '1 * 1 = 1';
+        '1 * 2 = 2';
+        '1 * 3 = 3';
+        '1 * 4 = 4';
+        '1 * 5 = 5';
+        '1 * 6 = 6';
+        '1 * 7 = 7';
+        '1 * 8 = 8';
+        '1 * 9 = 9';
+        '1 * 10 = 10';
+
+    let getal = parseInt(prompt('Geef een getal in van 1 tot 10'));
+    switch (getal){
+        case 1:
+            alert(tafelVan1);
+           break;
     }
+
 
 }
 
