@@ -1,6 +1,6 @@
 // Oefening 1
 window.onload = function (){
-    Oefening1()
+    Oefening9()
 }
 let Zin1, Zin2, Zin3;
 
@@ -210,6 +210,15 @@ function Oefening8() {
             break;
     }
     document.getElementById('Oefening8').innerText = `Het is ${dag} ${dagdeel} ${uren}:${nu.getMinutes()}`;
+}
+
+function Oefening9(){
+    let tafel;
+    let getal = parseInt(prompt('Geef een getal van 1 tot 10'));
+    if (getal === 1){
+        tafel = ''
+    }
+
 }
 
 
