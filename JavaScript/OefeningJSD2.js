@@ -1,6 +1,6 @@
 // Oefening 1
 window.onload = function (){
-    Oefening9()
+    Oefening1()
 }
 let Zin1, Zin2, Zin3;
 
@@ -65,7 +65,6 @@ function Promp4(){
     let oudgenoeg = prompt('Bent je ouder dan 18?');
     if (!oudgenoeg === 'ja'){
         alert('sorry, probeer het volgend jaar opnieuw')
-
     }
 }
 
@@ -78,6 +77,8 @@ function Oefening1(){
     let leeftijd = datum - geboortejaar;
     if(leeftijd >= 20){
         alert('Je bent oud genoeg om deze webpagina te bezoeken');
+    }else{
+        alert('Je bent niet oud genoeg om deze pagina te bezoeken');
     }
 }
 function Oefening2(){
@@ -214,6 +215,7 @@ function Oefening8() {
 
 function Oefening9(){
     let getal;
+    let teller;
     getal = parseInt(prompt('Geef een getal in van 1 tot 10'));
     if (getal  > 0 && getal < 10){
         for(teller = 1; teller <= 10; teller++) {
