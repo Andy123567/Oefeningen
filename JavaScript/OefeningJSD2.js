@@ -213,25 +213,18 @@ function Oefening8() {
 }
 
 function Oefening9(){
-
-    let tafelVan1 =
-        '1 * 1 = 1';
-        '1 * 2 = 2';
-        '1 * 3 = 3';
-        '1 * 4 = 4';
-        '1 * 5 = 5';
-        '1 * 6 = 6';
-        '1 * 7 = 7';
-        '1 * 8 = 8';
-        '1 * 9 = 9';
-        '1 * 10 = 10';
-
-    let getal = parseInt(prompt('Geef een getal in van 1 tot 10'));
-    switch (getal){
-        case 1:
-            alert(tafelVan1);
-           break;
+    let getal;
+    getal = parseInt(prompt('Geef een getal in van 1 tot 10'));
+    if (getal  > 0 && getal < 10){
+        for(teller = 1; teller <= 10; teller++) {
+            document.getElementById('Oefening9').innerText += `${getal} * ${teller} = ${getal * teller} \n`
+        }
+    }else{
+        getal = alert('Geef een correct getal in tussen 1 en 10');
+        getal = null;
     }
+
+
 
 
 }
