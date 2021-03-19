@@ -224,11 +224,28 @@ function Oefening9(){
     }else{
         getal = alert('Geef een correct getal in tussen 1 en 10');
         getal = null;
+        console.log('Niet Mogelijk');
     }
+}
 
-
-
+function Oefening10(){
 
 }
 
+function Oefening11(){
 
+}
+
+function Oefening12(){
+
+}
+
+function Oefening13(){
+
+}
+
+// Deel 3 Arrays
+
+function OEfening1(){
+
+}
