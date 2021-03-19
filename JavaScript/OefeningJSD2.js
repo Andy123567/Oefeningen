@@ -249,3 +249,9 @@ function Oefening13(){
 function OEfening1(){
 
 }
+
+// Deel 3 Functie
+
+function vermenigvuldig(){
+
+}
