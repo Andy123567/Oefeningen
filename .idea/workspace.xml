@@ -21,6 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c5016571-e7cc-4556-b096-ebaf76c8450a" name="Default Changelist" comment="Hallo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/Leeftijd.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Leeftijd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/OefeningJSD2.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/OefeningJSD2.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,6 +176,8 @@
       <workItem from="1616250369852" duration="526000" />
       <workItem from="1616275555815" duration="137000" />
       <workItem from="1616275727458" duration="40000" />
+      <workItem from="1616275893021" duration="36000" />
+      <workItem from="1616276038955" duration="1177000" />
     </task>
     <task id="LOCAL-00001" summary="Hallo">
       <created>1604236761650</created>
@@ -322,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616275655940</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Hallo">
+      <created>1616275911085</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1616275911085</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,19 +355,5 @@
     <MESSAGE value="Hoi" />
     <MESSAGE value="Hallo" />
     <option name="LAST_COMMIT_MESSAGE" value="Hallo" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="1060" y="481" key="FileChooserDialogImpl" timestamp="1615824359759">
-      <screen x="0" y="40" width="2560" height="1400" />
-    </state>
-    <state x="1060" y="481" key="FileChooserDialogImpl/0.40.2560.1400/-1920.407.1920.1040@0.40.2560.1400" timestamp="1615824359759" />
-    <state x="872" y="472" key="Vcs.Push.Dialog.v2" timestamp="1616275658979">
-      <screen x="0" y="40" width="2560" height="1400" />
-    </state>
-    <state x="872" y="472" key="Vcs.Push.Dialog.v2/0.40.2560.1400/-1920.407.1920.1040@0.40.2560.1400" timestamp="1616275658979" />
-    <state x="247" y="121" width="2117" height="1388" key="dock-window-1" timestamp="1615824697039">
-      <screen x="0" y="40" width="2560" height="1400" />
-    </state>
-    <state x="247" y="121" width="2117" height="1388" key="dock-window-1/0.40.2560.1400/-1920.407.1920.1040@0.40.2560.1400" timestamp="1615824697039" />
   </component>
 </project>
