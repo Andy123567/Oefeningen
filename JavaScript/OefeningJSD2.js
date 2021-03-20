@@ -242,7 +242,7 @@ function Oefening9(){
     let getal;
     let teller;
     getal = parseInt(prompt('Geef een getal in van 1 tot 10'));
-    if (getal  > 0 && getal < 10){
+    if (getal > 0 && getal < 10){
         for(teller = 1; teller <= 10; teller++) {
             document.getElementById('Oefening9').innerText += `${getal} * ${teller} = ${getal * teller} \n`
         }
@@ -290,7 +290,15 @@ function Random(){
     Naam = prompt('Geef jouw naam in?');
     Achternaam = prompt('Geef jouw achternaam in?');
     Leeftijd = parseInt(prompt('Geef jouw leeftijd in?'));
+    if (Leeftijd > 0 && Leeftijd < 100){
+        alert('Leeftijd is correct')
+    }else{
+        Leeftijd = alert('Geef een correcte leeftijd in.');
+        Leeftijd = null;
+    }
     Beroep = prompt('Geef je beroep in?');
     Waarom = prompt('Waarom doe je dit beroep?');
     document.getElementById('Antwoorden').innerText = `Mijn naam is ${Naam} ${Achternaam} ik ben ${Leeftijd} jaar oud en ik doe ${Beroep} als beroep, door deze reden heb ik voor dit beroep gekozen: ${Waarom}`;
+
+
 }
