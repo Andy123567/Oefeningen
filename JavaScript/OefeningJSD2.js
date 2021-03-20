@@ -30,7 +30,6 @@ function OEFening2(){
     alert(output);
 }
 
-
 // Oefening 3
 function OEFening3(){
     let koekje = 'Ik wil een koekje'
@@ -299,6 +298,5 @@ function Random(){
     Beroep = prompt('Geef je beroep in?');
     Waarom = prompt('Waarom doe je dit beroep?');
     document.getElementById('Antwoorden').innerText = `Mijn naam is ${Naam} ${Achternaam} ik ben ${Leeftijd} jaar oud en ik doe ${Beroep} als beroep, door deze reden heb ik voor dit beroep gekozen: ${Waarom}`;
-
 
 }
