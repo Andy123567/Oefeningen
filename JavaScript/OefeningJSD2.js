@@ -1,6 +1,6 @@
 // Oefening 1
 window.onload = function (){
-    Oefening7()
+    Random()
 }
 
 function OEFening1(){
@@ -18,7 +18,6 @@ function OEFening1(){
     console.log(Zin2);
     console.log(Zin3);
 }
-
 
 // Oefening 2
 function OEFening2(){
@@ -81,6 +80,7 @@ function Promp4(){
 // oefeningen deel 3
 
 //Controle structuren
+
 function Oefening1(){
     let geboortejaar = parseInt( prompt('Geef je geboortejaar'));
     let datum = new Date().getFullYear();
@@ -159,10 +159,10 @@ function Oefening7(){
     let result = '';
     switch(d){
         case 0:
-            result = 'Jan';
+            result = 'Januari';
             break;
         case 1:
-            result = 'Feb';
+            result = 'Februai';
             break;
         case 2:
             result = 'Maart';
@@ -178,6 +178,21 @@ function Oefening7(){
             break;
         case 6:
             result = 'Julli';
+            break;
+        case 7:
+            result = 'Augustus';
+            break;
+        case 8:
+            result = 'September';
+            break;
+        case 9:
+            result = 'Oktober';
+            break;
+        case 10:
+            result = 'November';
+            break;
+        case 11:
+            result = 'December';
             break;
     }
     console.log('Het is de maand ' + result);
@@ -264,4 +279,18 @@ function OEfening1(){
 
 function vermenigvuldig(){
 
+}
+function Random(){
+    let Naam;
+    let Achternaam;
+    let Leeftijd;
+    let Beroep;
+    let Waarom;
+
+    Naam = prompt('Geef jouw naam in?');
+    Achternaam = prompt('Geef jouw achternaam in?');
+    Leeftijd = parseInt(prompt('Geef jouw leeftijd in?'));
+    Beroep = prompt('Geef je beroep in?');
+    Waarom = prompt('Waarom doe je dit beroep?');
+    document.getElementById('Antwoorden').innerText = `Mijn naam is ${Naam} ${Achternaam} ik ben ${Leeftijd} jaar oud en ik doe ${Beroep} als beroep, door deze reden heb ik voor dit beroep gekozen: ${Waarom}`;
 }
