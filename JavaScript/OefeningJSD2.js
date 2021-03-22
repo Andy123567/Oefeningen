@@ -1,6 +1,6 @@
 // Oefening 1
 window.onload = function (){
-    Omuitteproberen()
+    Oefening13();
 }
 
 function OEFening1(){
@@ -59,6 +59,7 @@ function Promp2(){
 }
 
 function Promp3(){
+
     let getal1 = prompt('Geef een getal in');
     let getal2 = prompt('Geef een tweede getal in');
     let vermenigvuldiging = getal1 * getal2;
@@ -253,19 +254,64 @@ function Oefening9(){
 }
 
 function Oefening10(){
-
+    let tellinglines = 7;
+    for (let i = 1; i <= 11; i++){
+        let row = '';
+        for (let j = 1; j <= i; j++){
+            row += '#';
+        }
+        console.log(row);
+    }
 }
 
 function Oefening11(){
-
+    let lines = parseInt(prompt("Geef een getal van 1 tot 10 in."));
+    if (lines >= 0 && lines <= 10) {
+        for (let i = 1; i <= lines; i++) {
+            let row = '';
+            for (let j = 1; j <= i; j++) {
+                row += '*';
+            }
+            console.log(row);
+            //console.log('*'.repeat(i));
+        }
+    }else{
+        console.log('Dat is niet mogelijk.');
+    }
 }
 
 function Oefening12(){
-
+    let getal = parseInt(prompt("Geef een getal tussen 0 en 10 in."));
+    if (getal < 1 || getal > 10) {
+        console.log('Niet mogelijk')
+    }else{
+        for (let i = 1; i <= getal; i++) {
+            let driehoek = '';
+            for (let j = getal-i; j > 0; j--) {
+                driehoek += ' ';
+            }
+            for (let k = 0; k < i; k++) {
+                driehoek += '#';
+            }
+            console.log(driehoek);
+        }
 }
 
 function Oefening13(){
-
+    let lines = 7;
+    for (let i = 1; i <= lines ; i++) {
+        let row = '';
+        for (let j = 1; j <= lines - i; j++) {
+            row+= ' ';
+        }
+        for (let k = 0; k <= (2*(i-1)); k++) {
+            row += '*';
+        }
+        for (let l = i+1; l <= lines ; l++) {
+            row+= ' ';
+        }
+        console.log(row);
+    }
 }
 
 // Deel 3 Arrays
@@ -300,7 +346,7 @@ function Random(){
     document.getElementById('Antwoorden').innerText = `Mijn naam is ${Naam} ${Achternaam} ik ben ${Leeftijd} jaar oud en ik doe ${Beroep} als beroep, door deze reden heb ik voor dit beroep gekozen: ${Waarom}`;
 
 }
-function Omuitteproberen(){
+function Omuitteproberen() {
     let Woonplaats;
 
     Woonplaats = prompt('Waar woont u?');
@@ -309,5 +355,20 @@ function Omuitteproberen(){
         Woonplaats = prompt("Waar woont u?")
     }
     document.getElementById('Woonplaats').innerText = `De stad waar ik woon is ${Woonplaats}, dit is een van de mooiste steden uit het land en ik woon hier al meerdere jaren om te verkomen dat de stad zouw vervuilen heeft de stad besloten om alle auto die diezel gebruiken te verbannen van het centrum, dit betekend voor diegene die nog een diezel auto hebben dat zij niet meer in het centrum kunnen en mogen komen wegens dat je anders een boete van over de 100 euro kan verwachten.`
+    }
+}
+function Test(){
+    let Punten;
+
+    Punten = parseInt(prompt('Geef je laatste cijfer in.'));
+    if (Punten >= 0 && Punten <= 5) {
+        alert("Dat is een laag cijfer!");
+    }else if(Punten > 5 && Punten <= 10){
+        alert("Wat een mooie score heb je hier gehaald!");
+    }else{
+        alert("Geef een correct getal in tussen de 0 en 10.");
+    }
+}
+function Else(){
 
 }
