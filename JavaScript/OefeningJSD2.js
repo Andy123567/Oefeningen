@@ -255,7 +255,7 @@ function Oefening9(){
 
 function Oefening10(){
     let tellinglines = 7;
-    for (let i = 1; i <= 11; i++){
+    for (let i = 1; i <= 10; i++){
         let row = '';
         for (let j = 1; j <= i; j++){
             row += '#';
@@ -281,13 +281,13 @@ function Oefening11(){
 }
 
 function Oefening12(){
-    let getal = parseInt(prompt("Geef een getal tussen 0 en 10 in."));
+    let getal = parseInt(prompt("Geef een getal tussen 1 en 10 in."));
     if (getal < 1 || getal > 10) {
         console.log('Niet mogelijk')
-    }else{
+    }else {
         for (let i = 1; i <= getal; i++) {
             let driehoek = '';
-            for (let j = getal-i; j > 0; j--) {
+            for (let j = getal - i; j > 0; j--) {
                 driehoek += ' ';
             }
             for (let k = 0; k < i; k++) {
@@ -295,6 +295,7 @@ function Oefening12(){
             }
             console.log(driehoek);
         }
+    }
 }
 
 function Oefening13(){
@@ -315,7 +316,6 @@ function Oefening13(){
 }
 
 // Deel 3 Arrays
-
 function OEfening1(){
 
 }
@@ -355,7 +355,6 @@ function Omuitteproberen() {
         Woonplaats = prompt("Waar woont u?")
     }
     document.getElementById('Woonplaats').innerText = `De stad waar ik woon is ${Woonplaats}, dit is een van de mooiste steden uit het land en ik woon hier al meerdere jaren om te verkomen dat de stad zouw vervuilen heeft de stad besloten om alle auto die diezel gebruiken te verbannen van het centrum, dit betekend voor diegene die nog een diezel auto hebben dat zij niet meer in het centrum kunnen en mogen komen wegens dat je anders een boete van over de 100 euro kan verwachten.`
-    }
 }
 function Test(){
     let Punten;
