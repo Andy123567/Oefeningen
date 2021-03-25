@@ -322,9 +322,12 @@ function OEfening1(){
         "Bachelor in de Toegepaste informatica",
         "Applicatieontwikkeling",
         "Softwaremanagement",
+        "Systemen en netwerkbeheer",
         "Graduaat in de Digitale vormgeving",
-        ""
-    ]
+        "Graduaat in het Internet of things",
+        "Graduaat in het Programmeren",
+        "Graduaat in het Systeem- en netwerkbeheer"
+    ];
 }
 
 // Deel 3 Functie
