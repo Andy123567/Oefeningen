@@ -1,6 +1,6 @@
 // Oefening 1
 window.onload = function (){
-    Else();
+    OEfening4();
 }
 
 function OEFening1(){
@@ -328,7 +328,66 @@ function OEfening1(){
         "Graduaat in het Programmeren",
         "Graduaat in het Systeem- en netwerkbeheer"
     ];
+    console.log(opleidingen.length);
 }
+
+function OEfening2(){
+    let opleidingen = [
+        "Bachelor in de Elektronica-ICT",
+        "Bachelor in de Toegepaste informatica",
+        "Applicatieontwikkeling",
+        "Softwaremanagement",
+        "Systemen en netwerkbeheer",
+        "Graduaat in de Digitale vormgeving",
+        "Graduaat in het Internet of things",
+        "Graduaat in het Programmeren",
+        "Graduaat in het Systeem- en netwerkbeheer",
+        "Bachelor Multimedia- en Communicatietechnologie"
+    ];
+    console.dir(opleidingen);
+    console.log(opleidingen.length);
+}
+
+function OEfening3(){
+    let opleidingen = [
+        "Bachelor in de Elektronica-ICT",
+        "Bachelor in de Toegepaste informatica",
+        "Applicatieontwikkeling",
+        "Softwaremanagement",
+        "Systemen en netwerkbeheer",
+        "Graduaat in de Digitale vormgeving",
+        "Graduaat in het Internet of things",
+        "Graduaat in het Programmeren",
+        "Graduaat in het Systeem- en netwerkbeheer",
+        "Bachelor Multimedia- en Communicatietechnologie"
+    ];
+    document.getElementById("Opleidingen").innerText = `De opleiding ${opleidingen}\n`
+}
+
+function OEfening4(){
+    Zin = parseInt(prompt('Geef een nummer tussen 1 en 10'));
+    if (Zin <= 0 && Zin >= 10){
+        alert('Geef een correct getal in tussen 0 en 10');
+        Zin = parseInt(prompt('Geef een nummer tussen 1 en 10'));
+    }else{
+        alert('Goed nummer ')
+    }
+    let Honden = [
+        "Labrador Retriever",
+        "Duitse herder",
+        "Golden Retriever",
+        "Berner Sennenhond",
+        "Staffordshire Bull Terrier",
+        "Rhodesian Ridgeback",
+        "Dashond (Techel)",
+        "Chihuahua",
+        "Border Collie",
+        "Cavalier King Charles Spaniel"
+    ]
+
+
+}
+
 
 // Deel 3 Functie
 
