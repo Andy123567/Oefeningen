@@ -1,6 +1,6 @@
 // Oefening 1
 window.onload = function (){
-    Oefening13();
+    Else();
 }
 
 function OEFening1(){
@@ -369,5 +369,12 @@ function Test(){
     }
 }
 function Else(){
+    let oefening;
 
+    Oefening = prompt('Geef een eigen oefening op.');
+    if (Oefening === false){
+        console.log(Oefening);
+    }else{
+        console.log('Niet mogelijk');
+    }
 }
