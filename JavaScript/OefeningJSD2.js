@@ -317,7 +317,14 @@ function Oefening13(){
 
 // Deel 3 Arrays
 function OEfening1(){
-
+    let opleidingen = [
+        "Bachelor in de Elektronica-ICT",
+        "Bachelor in de Toegepaste informatica",
+        "Applicatieontwikkeling",
+        "Softwaremanagement",
+        "Graduaat in de Digitale vormgeving",
+        ""
+    ]
 }
 
 // Deel 3 Functie
