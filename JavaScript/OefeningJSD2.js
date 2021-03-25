@@ -437,11 +437,20 @@ function OEfening7(){
 
 }
 
+function OEfening8(){
+
+}
+
+function OEfening9(){
+
+}
+
 // Deel 3 Functie
 
 function vermenigvuldig(){
 
 }
+
 function Random(){
     let Naam;
     let Achternaam;
