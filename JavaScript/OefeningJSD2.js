@@ -1,6 +1,6 @@
 // Oefening 1
 window.onload = function (){
-    OEfening4();
+    OEfening6();
 }
 
 function OEFening1(){
@@ -365,12 +365,11 @@ function OEfening3(){
 }
 
 function OEfening4(){
+    let Zin;
+
     Zin = parseInt(prompt('Geef een nummer tussen 1 en 10'));
-    if (Zin <= 0 && Zin >= 10){
-        alert('Geef een correct getal in tussen 0 en 10');
-        Zin = parseInt(prompt('Geef een nummer tussen 1 en 10'));
-    }else{
-        alert('Goed nummer ')
+    if (Zin < 0 && Zin > 10){
+        alert('Sorry katten niet toegelaten')
     }
     let Honden = [
         "Labrador Retriever",
@@ -388,6 +387,55 @@ function OEfening4(){
 
 }
 
+function OEfening5(){
+    let Honden = [
+        "Labrador Retriever",
+        "Duitse herder",
+        "Golden Retriever",
+        "Berner Sennenhond",
+        "Staffordshire Bull Terrier",
+        "Rhodesian Ridgeback",
+        "Dashond (Techel)",
+        "Chihuahua",
+        "Border Collie",
+        "Cavalier King Charles Spaniel"
+    ]
+    Honden.push(
+        "Dalmatier",
+        "Newfoundlander",
+        "Amerikaanse buldog",
+        "Groenendaeler",
+        "Akita",)
+    console.log(Honden);
+}
+
+function OEfening6(){
+    let Honden = [
+        "Dalmatier",
+        "Newfoundlander",
+        "Amerikaanse buldog",
+        "Groenendaeler",
+        "Akita",
+        "Labrador Retriever",
+        "Duitse herder",
+        "Golden Retriever",
+        "Berner Sennenhond",
+        "Staffordshire Bull Terrier",
+        "Rhodesian Ridgeback",
+        "Dashond (Techel)",
+        "Chihuahua",
+        "Border Collie",
+        "Cavalier King Charles Spaniel"
+    ]
+    Honden.shift();
+    Honden.pop();
+    document.getElementById('Honden').innerText = `${Honden}`
+    console.log(Honden);
+}
+
+function OEfening7(){
+
+}
 
 // Deel 3 Functie
 
