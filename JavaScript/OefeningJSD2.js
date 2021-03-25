@@ -1,6 +1,6 @@
 // Oefening 1
 window.onload = function (){
-    OEfening6();
+    OEfening5();
 }
 
 function OEFening1(){
