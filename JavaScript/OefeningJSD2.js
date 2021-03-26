@@ -472,19 +472,165 @@ function OEfening9(){
 
 // Deel 3 Functie
 
-function vermenigvuldig(){
-
-    let getal1 = parseInt(prompt('Geef een getal in.'));
-    let getal2 = parseInt(prompt('Geef nog een getal in.'));
-    let vermenigvuldiging = getal1 * getal2;
-
-    document.getElementById('Vermenigvuldiging').innerText = `${vermenigvuldiging}`
-
+function multiply(a, b) {
+    return a * b;
 }
 
-function verschil(){
-
+function verschil(n){
+    return n > 100 ? n - 100 : 100 - n;
 }
+
+function isFifty(x, y) {
+    return ((x === 50 || y === 50) || (x + y === 50));
+}
+
+function startsWithHello(sentence) {
+    if (!sentence || sentence.substring(0, 6) === 'Hello ') {
+        return sentence;
+    }
+    return 'Hello ' + sentence;
+}
+
+function removeCharacter(str, position) {
+    let part1 = str.substring(0, position);
+    let part2 = str.substring(position + 1, str.length);
+    return (part1 + part2);
+}
+
+function removeCharacter2(str, position) {
+    return str.slice(0, position) + str.slice(position + 1);
+}
+
+function capitalizeEveryWord(sentence) {
+    let splitStr = sentence.toLowerCase().split(' ');
+    for (let i = 0; i < splitStr.length; i++) {
+        splitStr[i] = splitStr[i].charAt(0).toUpperCase() + splitStr[i].substring(1);
+    }
+    return splitStr.join(' ');
+}
+
+function countVowels(name) {
+    let count = 0;
+    for (let i = 0; i < name.length; i++) {
+        if (name[i] === 'a' || name[i] === 'e' || name[i] === 'i' || name[i] === 'o' || name[i] === 'u')
+            count = count + 1;
+    }
+    return count;
+}
+
+function maxValue(x, y, z) {
+    let largestNumber = x;
+    if (y > largestNumber) {
+        largestNumber = y;
+    }
+    if (z > largestNumber) {
+        largestNumber = z;
+    }
+    return largestNumber;
+}
+
+console.log('Output oef 1:', multiply(2, 2), multiply(4, 12));
+console.log('Output oef 2:', difference(156), difference(20));
+console.log('Output oef 3:', isFifty(15, 35), isFifty(70, -20), isFifty(50, 180), isFifty(10, 12));
+console.log('Output oef 4:', startsWithHello('Hello there'), startsWithHello('there'));
+console.log('Output oef 5(a):', removeCharacter('Voorbeeld', 1), removeCharacter('Voorbeeld', 4));
+console.log('Output oef 5(b):', removeCharacter2('Voorbeeld', 1), removeCharacter2('Voorbeeld', 4));
+console.log('Output oef 6:', capitalizeEveryWord('elk woord zou moeten beginnen met een hoofdletter'));
+console.log('Output oef 7:', `De inputstring bevat ${countVowels('oefening')} klinkers`);
+console.log('Output oef 8:', `Het grootste nummer is ${maxValue(12, 5, 25)}`);
+
+function printDriehoek(numberOfCharacters){
+    let output = '';
+    for (let i = 0; i <= numberOfCharacters; i++) {
+        for (let j = 0; j < i; j++) {
+            output += '#';
+        }
+        console.log(output);
+        output = '';
+    }
+}
+printDriehoek(7);
+
+function printDriehoekOmgekeerd(numberOfCharacters) {
+    for (let i = 0; i < numberOfCharacters; i++) {
+        let output = '';
+        for (let j = 1; j < numberOfCharacters-i; j++) {
+            output = output + ' ';
+        }
+        for (let k = 1; k <= (i+1); k++) {
+            output = output + '#';
+        }
+        console.log(output);
+    }
+}
+printDriehoekOmgekeerd(7);
+
+function printDriehoekPyramide(numberOfCharacters) {
+    for (let i = 0; i < numberOfCharacters; i++) {
+        let output = '';
+        for (let j = 1; j < numberOfCharacters-i; j++) {
+            output = output + ' ';
+        }
+        for (let k = 1; k <= (2*i+1); k++) {
+            output = output + '#';
+        }
+        console.log(output);
+    }
+}
+printDriehoekPyramide(7);
+
+function printDriehoekPyramideInterval(numberOfCharacters, interval) {
+    let count = 0;
+    for (let i = 0; i < numberOfCharacters; i++) {
+        let output = '';
+        for (let j = 1; j < numberOfCharacters-i; j++) {
+            output = output + ' ';
+        }
+        for (let k = 1; k <= (2*i+1); k++) {
+            if (count % interval === 0){
+                output += '@';
+            }else{
+                output = output + '#';
+            }
+            count++;
+        }
+        console.log(output);
+    }
+}
+printDriehoekPyramideInterval(7, 5);
+
+function printGetallen() {
+    let output = '';
+    for (let i = 1; i < 100; i++) {
+        if (i % 3 === 0 && i % 5 !== 0){
+            output += 'Fizz';
+        }else if (i % 3 !== 0 && i % 5 === 0){
+            output += 'Buzz';
+        }else if (i % 3 === 0 && i % 5 === 0){
+            output += 'FizzBuzz';
+        }else{
+            output += i + '';
+        }
+    }
+    console.log(output);
+}
+printGetallen();
+
+function schaakBord(grootte) {
+    let output;
+    for (let i = 0; i < 10; i++) {
+        output = '';
+        for (let j = 0; j < grootte; j++) {
+            if (j % 2 === 0){
+                output += '#';
+            }else{
+                output += ' ';
+            }
+        }
+        console.log(output);
+    }
+}
+schaakBord(8);
 
 function Random(){
     let Naam;
