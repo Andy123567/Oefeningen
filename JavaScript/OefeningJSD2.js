@@ -529,8 +529,8 @@ function maxValue(x, y, z) {
     return largestNumber;
 }
 
-console.log('Output oef 1:', multiply(2, 2), multiply(4, 12));
-console.log('Output oef 2:', difference(156), difference(20));
+console.log('Output oef 1:', vermenigvuldigen(2, 2), vermenigvuldigen(4, 12));
+console.log('Output oef 2:', verschil(156), verschil(20));
 console.log('Output oef 3:', isFifty(15, 35), isFifty(70, -20), isFifty(50, 180), isFifty(10, 12));
 console.log('Output oef 4:', startsWithHello('Hello there'), startsWithHello('there'));
 console.log('Output oef 5(a):', removeCharacter('Voorbeeld', 1), removeCharacter('Voorbeeld', 4));
