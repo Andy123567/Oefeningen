@@ -1,6 +1,6 @@
 // Oefening 1
 window.onload = function (){
-    Promp4();
+    vermenigvuldigen(a, b);
 }
 
 function OEFening1(){
@@ -472,7 +472,7 @@ function OEfening9(){
 
 // Deel 3 Functie
 
-function multiply(a, b) {
+function vermenigvuldigen(a, b) {
     return a * b;
 }
 
