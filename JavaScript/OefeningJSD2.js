@@ -1,6 +1,6 @@
 // Oefening 1
 window.onload = function (){
-    OEfening5();
+    vermenigvuldig();
 }
 
 function OEFening1(){
@@ -342,8 +342,9 @@ function OEfening2(){
         "Graduaat in het Internet of things",
         "Graduaat in het Programmeren",
         "Graduaat in het Systeem- en netwerkbeheer",
-        "Bachelor Multimedia- en Communicatietechnologie"
     ];
+    opleidingen.push("Bachelor Multimedia- en Communicatietechnologie");
+
     console.dir(opleidingen);
     console.log(opleidingen.length);
 }
@@ -366,24 +367,46 @@ function OEfening3(){
 
 function OEfening4(){
     let Zin;
+    let Honden;
 
     Zin = parseInt(prompt('Geef een nummer tussen 1 en 10'));
     if (Zin < 0 && Zin > 10){
         alert('Sorry katten niet toegelaten')
     }
-    let Honden = [
-        "Labrador Retriever",
-        "Duitse herder",
-        "Golden Retriever",
-        "Berner Sennenhond",
-        "Staffordshire Bull Terrier",
-        "Rhodesian Ridgeback",
-        "Dashond (Techel)",
-        "Chihuahua",
-        "Border Collie",
-        "Cavalier King Charles Spaniel"
-    ]
 
+    switch (Honden){
+        case 1:
+            Honden = "Labrador Retriever";
+            break;
+        case 2:
+            Honden = "Duitse herder";
+            break;
+        case 3:
+            Honden = "Golden Retriever";
+            break;
+        case 4:
+            Honden = "Berner Sennenhond";
+            break;
+        case 5:
+            Honden = "Staffordshire Bull Terrier";
+            break;
+        case 6:
+            Honden = "Rhodesian Rigeback";
+            break;
+        case 7:
+            Honden = "Dashond (Techel)";
+            break;
+        case 8:
+            Honden = "Chihuahua";
+            break;
+        case 9:
+            Honden = "Border Collie";
+            break;
+        case 10:
+            Honden = "Cavalier King Charles Spaniel";
+            break;
+    }
+    document.getElementById('Honden').innerText = `${Honden}`
 
 }
 
@@ -448,6 +471,16 @@ function OEfening9(){
 // Deel 3 Functie
 
 function vermenigvuldig(){
+
+    let getal1 = parseInt(prompt('Geef een getal in.'));
+    let getal2 = parseInt(prompt('Geef nog een getal in.'));
+    let vermenigvuldiging = getal1 * getal2;
+
+    document.getElementById('Vermenigvuldiging').innerText = `${vermenigvuldiging}`
+
+}
+
+function verschil(){
 
 }
 
