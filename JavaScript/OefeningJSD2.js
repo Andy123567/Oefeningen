@@ -1,6 +1,6 @@
 // Oefening 1
 window.onload = function (){
-    vermenigvuldig();
+    Promp4();
 }
 
 function OEFening1(){
@@ -71,9 +71,11 @@ function Promp3(){
 }
 
 function Promp4(){
-    let oudgenoeg = prompt('Bent je ouder dan 18?');
+    let oudgenoeg = prompt('Ben je ouder dan 18?');
     if (!oudgenoeg === 'ja'){
         alert('sorry, probeer het volgend jaar opnieuw')
+    }else{
+        alert('Je mag de website betreden')
     }
 }
 
@@ -502,7 +504,7 @@ function Random(){
     }
     Beroep = prompt('Geef je beroep in?');
     Waarom = prompt('Waarom doe je dit beroep?');
-    document.getElementById('Antwoorden').innerText = `Mijn naam is ${Naam} ${Achternaam} ik ben ${Leeftijd} jaar oud en ik doe ${Beroep} als beroep, door deze reden heb ik voor dit beroep gekozen: ${Waarom}`;
+    document.getElementById('Antwoorden').innerText = `Mijn naam is ${Naam} ${Achternaam} ik ben ${Leeftijd} jaar oud en ik doe ${Beroep} als beroep, daarom heb ik voor dit beroep gekozen: ${Waarom}`;
 
 }
 function Omuitteproberen() {
@@ -513,7 +515,7 @@ function Omuitteproberen() {
         alert("Geef een juiste woonplaats in.")
         Woonplaats = prompt("Waar woont u?")
     }
-    document.getElementById('Woonplaats').innerText = `De stad waar ik woon is ${Woonplaats}, dit is een van de mooiste steden uit het land en ik woon hier al meerdere jaren om te verkomen dat de stad zouw vervuilen heeft de stad besloten om alle auto die diezel gebruiken te verbannen van het centrum, dit betekend voor diegene die nog een diezel auto hebben dat zij niet meer in het centrum kunnen en mogen komen wegens dat je anders een boete van over de 100 euro kan verwachten.`
+    document.getElementById('Woonplaats').innerText = `De stad waar ik woon is ${Woonplaats}, dit is een van de mooiste steden uit het land en ik woon hier al meerdere jaren om te verkomen dat de stad zou vervuilen heeft de stad besloten om alle auto die diezel gebruiken te verbannen van het centrum, dit betekend voor diegene die nog een diezel auto hebben dat zij niet meer in het centrum kunnen en mogen komen wegens dat je anders een boete van over de 100 euro kan verwachten.`
 }
 function Test(){
     let Punten;
