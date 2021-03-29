@@ -462,12 +462,31 @@ function OEfening8(){
 }
 
 function OEfening9(){
-    let currentday = new Date().getDay()
-    let dagArr = [ 'zondag', 'maandag', 'dinsdag', 'woensdag', 'donderdag', 'vrijdag', 'zaterdag'];
-    let weekDag = dagArr.find(element => element === currentday)
-    console.log(currentday)
-    console.log(weekDag)
-    document.getElementById('Text').innerText = weekDag + ', ' + maandArr.join(" \n ")
+    let currentday = new Date().getDay() // 1
+    let nu = new Date();
+    let maand = nu.getMonth() + 1;
+    let jaar = nu.getFullYear();
+    let maandArr = [];
+
+    // Calculate the amount of days in a month
+    function dagenInMaand(month, year) {
+        return new Date(year, month, 0).getDate();
+    }
+
+    // Calculate which day it is
+    function stringifyDay(dayIndex) { // 7
+        let dagArr = ['zondag', 'maandag', 'dinsdag', 'woensdag', 'donderdag', 'vrijdag', 'zaterdag'];
+
+        return dagArr[dayIndex % 7];
+    }
+    let firstOfMonth = new Date(jaar + '-' + maand + '-' + '1');
+    let firstOfMonthDay = firstOfMonth.getDay(); // 1
+
+    for (let i = 0; i < dagenInMaand(maand, jaar); i++) {
+        let fullDatum = `${stringifyDay(firstOfMonthDay + i)},${(i + 1)}/${maand}/${jaar}`;
+        maandArr.push(fullDatum)
+    }
+    document.getElementById('oefening9').innerText = maandArr.join(" \n ")
 }
 
 // Deel 3 Functie
