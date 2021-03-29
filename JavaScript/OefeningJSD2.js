@@ -1,6 +1,6 @@
 // Oefening 1
 window.onload = function (){
-    vermenigvuldigen(a, b);
+    OEfening3();
 }
 
 function OEFening1(){
@@ -364,52 +364,31 @@ function OEfening3(){
         "Graduaat in het Systeem- en netwerkbeheer",
         "Bachelor Multimedia- en Communicatietechnologie"
     ];
-    document.getElementById("Opleidingen").innerText = `De opleiding ${opleidingen}\n`
+    let tekst = '';
+    for (let i = 0; i < opleidingen.length; i++){
+        tekst += opleidingen[i] + '\n';
+    }
+    document.getElementById('Oefening3').innerText = tekst;
 }
 
 function OEfening4(){
-    let Zin;
-    let Honden;
-
-    Zin = parseInt(prompt('Geef een nummer tussen 1 en 10'));
-    if (Zin < 0 && Zin > 10){
-        alert('Sorry katten niet toegelaten')
+    let Honden = ["Labrador Retriever",
+        "Duitse herder",
+        "Golden Retriever",
+        "Berner Sennenhond",
+        "Staffordshire Bull Terrier",
+        "Rhodesian Ridgeback",
+        "Dashond (Techel)",
+        "Chihuahua",
+        "Border Collie",
+        "Cavalier King Charles Spaniel"
+    ];
+    let Zin = parseInt(prompt('geef een getal van 1 tot 10'));
+    if (Zin <= 0 || Zin > 10){
+        alert('Uw getal is niet geldig');
+    }else{
+        document.getElementById('Honden').innerText = Honden[Zin-1];
     }
-
-    switch (Honden){
-        case 1:
-            Honden = "Labrador Retriever";
-            break;
-        case 2:
-            Honden = "Duitse herder";
-            break;
-        case 3:
-            Honden = "Golden Retriever";
-            break;
-        case 4:
-            Honden = "Berner Sennenhond";
-            break;
-        case 5:
-            Honden = "Staffordshire Bull Terrier";
-            break;
-        case 6:
-            Honden = "Rhodesian Rigeback";
-            break;
-        case 7:
-            Honden = "Dashond (Techel)";
-            break;
-        case 8:
-            Honden = "Chihuahua";
-            break;
-        case 9:
-            Honden = "Border Collie";
-            break;
-        case 10:
-            Honden = "Cavalier King Charles Spaniel";
-            break;
-    }
-    document.getElementById('Honden').innerText = `${Honden}`
-
 }
 
 function OEfening5(){
@@ -425,7 +404,7 @@ function OEfening5(){
         "Border Collie",
         "Cavalier King Charles Spaniel"
     ]
-    Honden.push(
+    Honden.unshift(
         "Dalmatier",
         "Newfoundlander",
         "Amerikaanse buldog",
@@ -459,15 +438,36 @@ function OEfening6(){
 }
 
 function OEfening7(){
-
+    let fruits = ['banaan', 'orange', 'Mango'];
+    fruits.splice(2,0,'lemon', 'kiwi');
+    document.getElementById('fruits').innerHTML = fruits.toString();
 }
 
 function OEfening8(){
+    let nu = new Date();
+    let maand = nu.getMonth() +1;
+    let jaar = nu.getFullYear();
 
+
+    function dagenInMaand(month, year){
+        return new Date(year, month, 0).getDate();
+    }
+
+    let maandArr = [];
+    for (let i = 0; i < dagenInMaand(maand, jaar); i++){
+        let fullDatum = (i +1) + ' / ' + maand + ' / ' + jaar;
+        maandArr.push(fullDatum)
+    }
+    document.getElementById('Text').innerText = maandArr.join(" \n ")
 }
 
 function OEfening9(){
-
+    let currentday = new Date().getDay()
+    let dagArr = [ 'zondag', 'maandag', 'dinsdag', 'woensdag', 'donderdag', 'vrijdag', 'zaterdag'];
+    let weekDag = dagArr.find(element => element === currentday)
+    console.log(currentday)
+    console.log(weekDag)
+    document.getElementById('Text').innerText = weekDag + ', ' + maandArr.join(" \n ")
 }
 
 // Deel 3 Functie
