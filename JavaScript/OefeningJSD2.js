@@ -1,6 +1,6 @@
 // Oefening 1
 window.onload = function (){
-    OEfening3();
+    oefening4();
 }
 
 function OEFening1(){
@@ -661,7 +661,7 @@ function schaakBord(grootte) {
 schaakBord(8);
 
 function oefening1() {
-    let persoon = {naam: 'achternaam', voornaam: 'Peter', email: 'Peter@pxl.be'};
+    let persoon = {naam: 'Vandeweyer', voornaam: 'Andy', email: 'andy.Vandeweyer@STUDENT.PXL.BE'};
     console.log('De naam van de persoon is: ' + persoon.naam);
     console.log('De voornaam van de persoon is: ' + persoon.voornaam);
 
@@ -680,10 +680,10 @@ function oefening1() {
 
 function oefening2() {
     let gegevens = {
-        naam: 'Rémi',
-        achternaam: "Malais",
-        tel: "0478794312",
-        gbdatum: "20/07/2001",
+        naam: 'Andy',
+        achternaam: "Vandeweyer",
+        tel: "0473712813",
+        gbdatum: "15/02/2001",
         zinvorm: function () {
             return `Mijn naam is ${this.naam}  ${this.achternaam} en ik ben geboren op  ${this.gbdatum}
                 . Mijn telefoonnummer is ${this.tel} Via deze gegevens kan je mij altijd contacteren!;`
@@ -694,15 +694,15 @@ function oefening2() {
 
 function oefening3() {
     let gegevens = {
-        naam: "Remi",
-        achternaam: "Malais",
-        tel: "0478794312",
-        gbdatum: "20/07/2001",
-        oogkleur: "blauw"
+        naam: "Andy",
+        achternaam: "Vandeweyer",
+        tel: "0473712813",
+        gbdatum: "15/02/2001",
+        oogkleur: "Bruin"
     };
 
     gegevens.lengte = 175;
-    gegevens.naam = 'Samir';
+    gegevens.naam = 'Andy';
     gegevens.gewicht = 80;
 
     let uitkomst = "";
@@ -715,13 +715,13 @@ function oefening3() {
 
 function oefening4() {
     let gegevens = {
-        naam: "Remi",
-        achternaam: "Malais",
-        tel: "0478794312",
-        gbdatum: "20/07/2001",
-        oogkleur: "blauw",
+        naam: "Andy",
+        achternaam: "Vandeweyer",
+        tel: "0473712813",
+        gbdatum: "15/02/2001",
+        oogkleur: "Bruin",
         lengte: 175,
-        gewicht: 70
+        gewicht: 80
     };
 
     delete gegevens.lengte;
