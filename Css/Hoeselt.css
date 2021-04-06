@@ -1,7 +1,6 @@
-.Tittle {
-
-    color: cornflowerblue;
-    background-color: blueviolet;
-
-
+body{
+    background-color: aqua;
+}
+.Tittle{
+    text-align: center;
 }

@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5016571-e7cc-4556-b096-ebaf76c8450a" name="Default Changelist" comment="Hallo">
+    <list default="true" id="c5016571-e7cc-4556-b096-ebaf76c8450a" name="Default Changelist" comment="Bijna af commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/OefeningJSD2.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/OefeningJSD2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Css/Hoeselt.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/Hoeselt.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/Hoeselt.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Hoeselt.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +202,10 @@
       <workItem from="1617195063716" duration="146000" />
       <workItem from="1617272156188" duration="190000" />
       <workItem from="1617274685209" duration="175000" />
-      <workItem from="1617349021117" duration="3403000" />
+      <workItem from="1617349021117" duration="4027000" />
+      <workItem from="1617384541251" duration="194000" />
+      <workItem from="1617699942317" duration="231000" />
+      <workItem from="1617700181726" duration="598000" />
     </task>
     <task id="LOCAL-00001" summary="Hallo">
       <created>1604236761650</created>
@@ -497,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617272337957</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Bijna af commit">
+      <created>1617355034235</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1617355034235</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -518,6 +529,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Hoi" />
     <MESSAGE value="Hallo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hallo" />
+    <MESSAGE value="Bijna af commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bijna af commit" />
   </component>
 </project>
