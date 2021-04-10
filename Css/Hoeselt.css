@@ -5,8 +5,33 @@ body{
     background-position: center;
     height: 784px;
     background-size: cover;
+    color: black;
+
+}
+#VolledigeTekst{
+    text-align: center;
+    border-color: black;
+    border-style: solid;
+    margin-left: 70px;
+    margin-right: 70px;
 
 }
 .Tittle{
-    text-align: center;
+
+}
+p{
+
+}
+.MainTekst{
+
+}
+.MainTekst2{
+
+}
+.MainTekst3{
+
+}
+.MainTekst3deel2{
+    margin-right: 200px;
+    margin-left: 200px;
 }
