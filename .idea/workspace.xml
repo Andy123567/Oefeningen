@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5016571-e7cc-4556-b096-ebaf76c8450a" name="Default Changelist" comment="Bijna af commit">
+    <list default="true" id="c5016571-e7cc-4556-b096-ebaf76c8450a" name="Default Changelist" comment="Website Hoeselt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Css/Hoeselt.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/Hoeselt.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/Hoeselt.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Hoeselt.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +204,8 @@
       <workItem from="1617349021117" duration="4027000" />
       <workItem from="1617384541251" duration="194000" />
       <workItem from="1617699942317" duration="231000" />
-      <workItem from="1617700181726" duration="598000" />
+      <workItem from="1617700181726" duration="631000" />
+      <workItem from="1618055860668" duration="520000" />
     </task>
     <task id="LOCAL-00001" summary="Hallo">
       <created>1604236761650</created>
@@ -508,7 +508,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617355034235</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Website Hoeselt">
+      <created>1617700804144</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1617700804144</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -530,6 +537,7 @@
     <MESSAGE value="Hoi" />
     <MESSAGE value="Hallo" />
     <MESSAGE value="Bijna af commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bijna af commit" />
+    <MESSAGE value="Website Hoeselt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Website Hoeselt" />
   </component>
 </project>

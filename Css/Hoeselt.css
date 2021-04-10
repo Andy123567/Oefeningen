@@ -1,5 +1,11 @@
 body{
-    background-color: aqua;
+    background-image: url("../../Projecten/Assets/Hoeselt.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 784px;
+    background-size: cover;
+
 }
 .Tittle{
     text-align: center;
