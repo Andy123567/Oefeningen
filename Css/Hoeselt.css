@@ -1,12 +1,12 @@
 body{
-    background-image: url("../../Projecten/Assets/Hoeselt.jpg");
+    background-image: url("../../Projecten/Assets/Hoeselt2.jpg");
     background-color: #cccccc;
     background-repeat: no-repeat;
     background-position: center;
-    height: 784px;
+    height: 100%;
     background-size: cover;
     color: black;
-
+    background-attachment: fixed;
 }
 ul{
     float: right;
@@ -29,7 +29,7 @@ ul li a:hover{
     color: #000;
 
 }
-ul li.active a {
+ul li.EersteActief a {
     background-color: #fff;
     color: #000;
 }

@@ -22,7 +22,6 @@
     <list default="true" id="c5016571-e7cc-4556-b096-ebaf76c8450a" name="Default Changelist" comment="Website Hoeselt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Css/Hoeselt.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/Hoeselt.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/Hoeselt.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Hoeselt.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +52,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Bestanden opdrachten/Style Index.css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Bestanden opdrachten/Index.html" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -208,7 +207,11 @@
       <workItem from="1617700181726" duration="631000" />
       <workItem from="1618055860668" duration="3222000" />
       <workItem from="1618088235831" duration="5000" />
-      <workItem from="1618146668068" duration="696000" />
+      <workItem from="1618146668068" duration="749000" />
+      <workItem from="1618147477337" duration="38000" />
+      <workItem from="1618147554646" duration="122000" />
+      <workItem from="1618165641814" duration="1584000" />
+      <workItem from="1618167312169" duration="47000" />
     </task>
     <task id="LOCAL-00001" summary="Hallo">
       <created>1604236761650</created>
@@ -532,7 +535,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618059084536</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Website Hoeselt">
+      <created>1618147371632</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1618147371632</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
