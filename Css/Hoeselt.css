@@ -1,5 +1,5 @@
 body{
-    background-image: url("../../Projecten/Assets/Hoeselt2.jpg");
+    background-image: url("../../Projecten/Assets/Hoeselt.jpg");
     background-color: #cccccc;
     background-repeat: no-repeat;
     background-position: center;
@@ -39,6 +39,10 @@ ul li.EersteActief a {
     border-style: solid;
     margin-left: 70px;
     margin-right: 70px;
+    font-size: 20px;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 
 }
 .Tittle{
@@ -59,4 +63,5 @@ p{
 .MainTekst3deel2{
     margin-right: 200px;
     margin-left: 200px;
+
 }
