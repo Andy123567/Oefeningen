@@ -11,7 +11,7 @@ body{
 ul{
     float: right;
     list-style-type: none;
-    margin-top: 25px;
+    margin-top: 1px;
     margin-right: 80px;
 }
 ul li{
@@ -40,13 +40,14 @@ ul li.EersteActief a {
     margin-left: 70px;
     margin-right: 70px;
     font-size: 20px;
-    color: white;
+    color: black;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
+    display: inline-block;
 
 }
 .Tittle{
-    margin-top: 60px;
+    margin-top: 10px;
 }
 p{
 
@@ -63,5 +64,6 @@ p{
 .MainTekst3deel2{
     margin-right: 200px;
     margin-left: 200px;
+    display: inline-block;
 
 }

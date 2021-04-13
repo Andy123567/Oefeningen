@@ -20,12 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5016571-e7cc-4556-b096-ebaf76c8450a" name="Default Changelist" comment="Website Hoeselt">
-      <change afterPath="$PROJECT_DIR$/Css/MeerInformatie.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Css/Provincies.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/MeerInformatie.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/Provincies.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Css/Hoeselt.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/Hoeselt.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Css/MeerInformatie.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/MeerInformatie.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HTML/Hoeselt.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Hoeselt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/MeerInformatie.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/MeerInformatie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/Provincies.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Provincies.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +56,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Bestanden opdrachten/Index.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Bestanden opdrachten/Style Index.css" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -217,14 +217,8 @@
       <workItem from="1618165641814" duration="1584000" />
       <workItem from="1618167312169" duration="61000" />
       <workItem from="1618215120367" duration="668000" />
-      <workItem from="1618320664944" duration="602000" />
-    </task>
-    <task id="LOCAL-00001" summary="Hallo">
-      <created>1604236761650</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1604236761651</updated>
+      <workItem from="1618320664944" duration="682000" />
+      <workItem from="1618332111748" duration="1816000" />
     </task>
     <task id="LOCAL-00002" summary="Hallo">
       <created>1604236943794</created>
@@ -562,7 +556,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618215776901</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Website Hoeselt">
+      <created>1618321281878</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1618321281878</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
