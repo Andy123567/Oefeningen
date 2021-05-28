@@ -21,6 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="c5016571-e7cc-4556-b096-ebaf76c8450a" name="Default Changelist" comment="Website Hoeselt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Css/Hoeselt.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/Hoeselt.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Css/Provincies.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/Provincies.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/Hoeselt.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Hoeselt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/MeerInformatie.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/MeerInformatie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/Provincies.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Provincies.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,13 +224,23 @@
       <workItem from="1619211055727" duration="491000" />
       <workItem from="1619211645973" duration="547000" />
       <workItem from="1619381405875" duration="64000" />
-    </task>
-    <task id="LOCAL-00006" summary="Hallo">
-      <created>1615824510483</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1615824510483</updated>
+      <workItem from="1619937508552" duration="206000" />
+      <workItem from="1619939996307" duration="51000" />
+      <workItem from="1620204917230" duration="10000" />
+      <workItem from="1620204959045" duration="595000" />
+      <workItem from="1620763091526" duration="8000" />
+      <workItem from="1620853054569" duration="309000" />
+      <workItem from="1620853373152" duration="732000" />
+      <workItem from="1620892389256" duration="283000" />
+      <workItem from="1620892875590" duration="431000" />
+      <workItem from="1620893315843" duration="67000" />
+      <workItem from="1621193049886" duration="191000" />
+      <workItem from="1621410426264" duration="4000" />
+      <workItem from="1622031286444" duration="2000" />
+      <workItem from="1622187965411" duration="21000" />
+      <workItem from="1622190994849" duration="1996000" />
+      <workItem from="1622193007013" duration="1301000" />
+      <workItem from="1622194320832" duration="1417000" />
     </task>
     <task id="LOCAL-00007" summary="Hallo">
       <created>1615824701697</created>
@@ -563,7 +578,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619212186160</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Website Hoeselt">
+      <created>1619937674756</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1619937674756</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

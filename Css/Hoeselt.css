@@ -44,9 +44,7 @@ ul li.EersteActief a {
     text-align: center;
     border-color: black;
     border-style: solid;
-    margin-left: 70px;
-    margin-right: 70px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     font-size: 20px;
     color: black;
     -webkit-text-stroke-width: 1px;
@@ -63,6 +61,7 @@ ul li.EersteActief a {
     margin-right: 200px;
     margin-left: 200px;
     display: inline-block;
+
 
 }
 

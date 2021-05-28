@@ -34,6 +34,36 @@ ul li.EersteActief a {
     background-color: #fff;
     color: #000;
 }
+
+.Fotos{
+    float: left;
+    padding: 5px;
+    border: black 2px solid;
+    margin-bottom: 25px;
+    left: -200px;
+}
+.Fotos:hover{
+
+}
+.Fotos2{
+    float: left;
+    padding: 5px;
+    border: black 2px solid;
+    margin-bottom: 25px;
+}
+.Fotos2:hover{
+
+}
+#FotosDeel1{
+    content: "";
+    clear: both;
+    display: table;
+}
+#FotoDeel2{
+    content: "";
+    clear: both;
+    display: table;
+}
 footer{
     position: absolute;
     bottom: 0;
