@@ -35,38 +35,79 @@ ul li.EersteActief a {
     color: #000;
 }
 
-#FotosDeel1{
+#Row1{
     float: left;
-    padding: 5px;
-    border: black 2px solid;
+    padding: 20px;
     margin-bottom: 25px;
-    left: -200px;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: 350px 350px 350px 350px;
 
 }
-.Fotos:hover{
 
+#Row2{
+    float: left;
+    padding: 20px;
+    margin-bottom: 25px;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: 350px 350px 350px 350px;
+}
+.Foto1{
+    opacity: 0.5;
+}
+
+.Foto1:hover{
+    opacity: 1.0;
+}
+.Foto2{
+    opacity: 0.5;
+}
+
+.Foto2:hover{
+    opacity: 1.0;
+}
+.Foto3{
+    opacity: 0.5;
+}
+
+.Foto3:hover{
+    opacity: 1.0;
+}
+.Foto4{
+    opacity: 0.5;
+}
+
+.Foto4:hover{
+    opacity: 1.0;
+}
+
+.Fotos1{
+    opacity: 0.5;
+}
+.Fotos1:hover{
+    opacity: 1.0;
 }
 .Fotos2{
-    float: right;
-    padding: 5px;
-    border: black 2px solid;
-    margin-bottom: 25px;
-    display: flex;
-    grid-template-columns: auto auto auto;
+    opacity: 0.5;
 }
 .Fotos2:hover{
+    opacity: 1.0;
+}
+.Fotos3{
+    opacity: 0.5;
+}
+.Fotos3:hover{
+    opacity: 1.0;
+}
+.Fotos4{
+    opacity: 0.5;
+}
+.Fotos4:hover{
+    opacity: 1.0;
+}
 
-}
-#FotosDeel1{
-    content: "";
-    clear: both;
-    display: table;
-}
-#FotoDeel2{
-    content: "";
-    clear: both;
-    display: table;
-}
+
 footer{
     position: absolute;
     bottom: 0;

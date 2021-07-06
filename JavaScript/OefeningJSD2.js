@@ -1,6 +1,6 @@
 // Oefening 1
 window.onload = function (){
-    oefening4();
+    printGetallen();
 }
 
 function OEFening1(){
