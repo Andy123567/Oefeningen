@@ -2,7 +2,7 @@
 body {
     margin: 0;
     background: #222;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Ink Free', sans-serif;
     font-weight: 800;
 }
 
@@ -40,7 +40,6 @@ nav li {
     display: inline-block;
     margin-left: 70px;
     padding-top: 23px;
-
     position: relative;
 }
 
@@ -59,7 +58,7 @@ nav a::before {
     content: '';
     display: block;
     height: 5px;
-    background-color: #444;
+    background-color: #FFD700;
 
     position: absolute;
     top: 0;
@@ -70,4 +69,61 @@ nav a::before {
 
 nav a:hover::before {
     width: 100%;
+}
+
+.Prijzenlijst{
+    color: white;
+    margin-top: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 30px;
+    font-family: 'Ink Free', sans-serif;
+    text-align: center;
+    padding: 5px;
+    background-color: #FA8072;
+    border-radius: 25px;
+    border: black solid;
+}
+
+p.Hoofd {
+    color: white;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 0;
+}
+
+.Beschrijving1 {
+    background-color: #FA8072;
+    margin: 5px 60% 10% 20%;
+    border-radius: 5px;
+    padding-left: 5px;
+
+}
+
+.Beschrijving2 {
+    background-color: #FA8072;
+    margin: -410px 20% 10% 60%;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.Beschrijving3 {
+    background-color: #FA8072;
+    margin: 5px 60% 10% 20%;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.Beschrijving4 {
+    background-color: #FA8072;
+    margin: -410px 20% 10% 60%;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.Extras {
+    background-color: #FA8072;
+    margin: -20px 40% 10% 40%;
+    border-radius: 5px;
+    padding: 10px;
 }

@@ -19,20 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5016571-e7cc-4556-b096-ebaf76c8450a" name="Default Changelist" comment="Website Hoeselt">
-      <change afterPath="$PROJECT_DIR$/Css/StyleWDH.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Css/WebsiteKimberley/Main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Css/WebsiteKimberley/MeerInformatie.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Css/WebsiteKimberley/Prijzenlijst.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/WatDoenHoeselt.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/WebsiteKimberley/Main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/WebsiteKimberley/MeerInformatie.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML/WebsiteKimberley/Prijzenlijst.html" afterDir="false" />
+    <list default="true" id="c5016571-e7cc-4556-b096-ebaf76c8450a" name="Default Changelist" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Css/MeerInformatie.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/HoeseltKermis.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/Hoeselt.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Hoeselt.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/MeerInformatie.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/HoeseltKermis.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML/Provincies.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/Provincies.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Css/WebsiteKimberley/Main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/WebsiteKimberley/Main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Css/WebsiteKimberley/MeerInformatie.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/WebsiteKimberley/MeerInformatie.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Css/WebsiteKimberley/Prijzenlijst.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/WebsiteKimberley/Prijzenlijst.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/WebsiteKimberley/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/WebsiteKimberley/Main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/WebsiteKimberley/MeerInformatie.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/WebsiteKimberley/MeerInformatie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/WebsiteKimberley/Prijzenlijst.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/WebsiteKimberley/Prijzenlijst.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,14 +63,15 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Projecten\Assets" />
-      <recent name="D:\Projecten\HTML\CV" />
-      <recent name="D:\Projecten\CSS\CV" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Projecten\JavaScript" />
       <recent name="D:\Projecten\HTML\CV" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projecten\Assets\WebsiteKimberley" />
+      <recent name="D:\Projecten\Assets" />
+      <recent name="D:\Projecten\HTML\CV" />
+      <recent name="D:\Projecten\CSS\CV" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -263,14 +258,14 @@
       <workItem from="1625584503756" duration="2575000" />
       <workItem from="1625587132016" duration="2692000" />
       <workItem from="1625671380022" duration="415000" />
-      <workItem from="1625903826817" duration="6176000" />
-    </task>
-    <task id="LOCAL-00010" summary="Hallo">
-      <created>1616006319646</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1616006319646</updated>
+      <workItem from="1625903826817" duration="6245000" />
+      <workItem from="1625933618761" duration="1112000" />
+      <workItem from="1625987852300" duration="696000" />
+      <workItem from="1625988562238" duration="619000" />
+      <workItem from="1625993817391" duration="8180000" />
+      <workItem from="1626103622972" duration="3313000" />
+      <workItem from="1626189932084" duration="2109000" />
+      <workItem from="1626192062861" duration="2576000" />
     </task>
     <task id="LOCAL-00011" summary="Hallo">
       <created>1616057065145</created>
@@ -608,7 +603,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625589792377</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary=".">
+      <created>1625910265220</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1625910265221</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -631,6 +633,7 @@
     <MESSAGE value="Hallo" />
     <MESSAGE value="Bijna af commit" />
     <MESSAGE value="Website Hoeselt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Website Hoeselt" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>

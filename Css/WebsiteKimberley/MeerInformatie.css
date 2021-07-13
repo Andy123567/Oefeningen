@@ -2,8 +2,9 @@
 body {
     margin: 0;
     background: #222;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Ink Free', sans-serif;
     font-weight: 800;
+
 }
 
 .container {
@@ -12,7 +13,7 @@ body {
 }
 
 header {
-    background: #FA8072;
+    background: #FA8072 ;
 }
 
 header::after {
@@ -59,7 +60,7 @@ nav a::before {
     content: '';
     display: block;
     height: 5px;
-    background-color: #444;
+    background-color: #FFD700;
 
     position: absolute;
     top: 0;
@@ -70,4 +71,12 @@ nav a::before {
 
 nav a:hover::before {
     width: 100%;
+}
+
+.InnerText {
+    color: white;
+    margin: 5% 20%;
+    padding: 30px;
+    background-color: #FA8072;
+    border-radius: 25px;
 }
