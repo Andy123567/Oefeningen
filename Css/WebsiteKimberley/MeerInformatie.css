@@ -80,3 +80,6 @@ nav a:hover::before {
     background-color: #FA8072;
     border-radius: 25px;
 }
+u {
+    color: blue;
+}
