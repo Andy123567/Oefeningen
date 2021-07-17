@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background: #FA8072;
+    background: #374559;
 }
 
 header::after {
@@ -24,6 +24,11 @@ header::after {
 .logo {
     float: left;
     padding: 10px 0;
+    height: auto;
+    width: auto;
+    max-height: 72px;
+    max-width: 250px;
+
 }
 
 nav {
@@ -44,7 +49,7 @@ nav li {
 }
 
 nav a {
-    color: #444;
+    color: white;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
@@ -80,7 +85,7 @@ nav a:hover::before {
     font-family: 'Ink Free', sans-serif;
     text-align: center;
     padding: 5px;
-    background-color: #FA8072;
+    background-color: #374559;
     border-radius: 25px;
     border: black solid;
 }
@@ -94,7 +99,7 @@ p.Hoofd {
 
 .Beschrijving1 {
     color: white;
-    background-color: #FA8072;
+    background-color: #374559;
     margin: 5px 60% 10% 20%;
     border-radius: 5px;
     padding-left: 5px;
@@ -103,7 +108,7 @@ p.Hoofd {
 
 .Beschrijving2 {
     color: white;
-    background-color: #FA8072;
+    background-color: #374559;
     margin: -410px 20% 10% 60%;
     border-radius: 5px;
     padding-left: 5px;
@@ -111,7 +116,7 @@ p.Hoofd {
 
 .Beschrijving3 {
     color: white;
-    background-color: #FA8072;
+    background-color: #374559;
     margin: 5px 60% 10% 20%;
     border-radius: 5px;
     padding-left: 5px;
@@ -119,7 +124,7 @@ p.Hoofd {
 
 .Beschrijving4 {
     color: white;
-    background-color: #FA8072;
+    background-color: #374559;
     margin: -410px 20% 10% 60%;
     border-radius: 5px;
     padding-left: 5px;
@@ -127,7 +132,7 @@ p.Hoofd {
 
 .Extras {
     color: white;
-    background-color: #FA8072;
+    background-color: #374559;
     margin: -20px 40% 10% 40%;
     border-radius: 5px;
     padding: 10px;

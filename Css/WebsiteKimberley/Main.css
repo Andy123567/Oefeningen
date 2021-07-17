@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background: #FA8072;
+    background: #ffffff;
 }
 
 header::after {
@@ -24,6 +24,10 @@ header::after {
 .logo {
     float: left;
     padding: 10px 0;
+    height: auto;
+    width: auto;
+    max-height: 72px;
+    max-width: 250px;
 }
 
 nav {
@@ -75,10 +79,10 @@ u {
     color: blue;
 }
 .MainText{
-    color: white;
+    color: gray;
     margin: 5% 20%;
     padding: 30px;
-    background-color: #FA8072;
+    background-color: #ffffff;
     border-radius: 25px;
 }
 .foto {

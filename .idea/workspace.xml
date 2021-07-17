@@ -21,8 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c5016571-e7cc-4556-b096-ebaf76c8450a" name="Default Changelist" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Css/WebsiteKimberley/MeerInformatie.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/WebsiteKimberley/MeerInformatie.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Css/WebsiteKimberley/Main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/WebsiteKimberley/Main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Css/WebsiteKimberley/Prijzenlijst.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/WebsiteKimberley/Prijzenlijst.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/WebsiteKimberley/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/WebsiteKimberley/Main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HTML/WebsiteKimberley/MeerInformatie.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/WebsiteKimberley/MeerInformatie.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HTML/WebsiteKimberley/Prijzenlijst.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/WebsiteKimberley/Prijzenlijst.html" afterDir="false" />
     </list>
@@ -265,13 +266,10 @@
       <workItem from="1626189932084" duration="2109000" />
       <workItem from="1626192062861" duration="2744000" />
       <workItem from="1626276143802" duration="1652000" />
-    </task>
-    <task id="LOCAL-00013" summary="Hallo">
-      <created>1616059046072</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1616059046072</updated>
+      <workItem from="1626296182858" duration="29000" />
+      <workItem from="1626446297906" duration="1207000" />
+      <workItem from="1626460741652" duration="79000" />
+      <workItem from="1626508302240" duration="3657000" />
     </task>
     <task id="LOCAL-00014" summary="Hallo">
       <created>1616063135380</created>
@@ -609,7 +607,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626194809330</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary=".">
+      <created>1626296194787</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1626296194787</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
