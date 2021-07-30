@@ -19,7 +19,28 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5016571-e7cc-4556-b096-ebaf76c8450a" name="Default Changelist" comment="." />
+    <list default="true" id="c5016571-e7cc-4556-b096-ebaf76c8450a" name="Default Changelist" comment=".">
+      <change afterPath="$PROJECT_DIR$/Css/ColorPicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Css/DataList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Css/EditMyDiv.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Css/Output.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Css/ProgressBar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/ColorPicker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/DataList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/EditMyDiv.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/Output.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML/ProgressBar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/WebsiteKimberley/Informatie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/WebsiteKimberley/Main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/WebsiteKimberley/Prijslijst.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Css/WebsiteKimberley/Main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/WebsiteKimberley/Main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Css/WebsiteKimberley/MeerInformatie.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/WebsiteKimberley/MeerInformatie.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Css/WebsiteKimberley/Prijzenlijst.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/WebsiteKimberley/Prijzenlijst.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/WebsiteKimberley/Main.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/WebsiteKimberley/Main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/WebsiteKimberley/MeerInformatie.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/WebsiteKimberley/MeerInformatie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML/WebsiteKimberley/Prijzenlijst.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML/WebsiteKimberley/Prijzenlijst.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,9 +49,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -51,7 +72,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Bestanden opdrachten/Style Index.css" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -263,13 +284,14 @@
       <workItem from="1626446297906" duration="1207000" />
       <workItem from="1626460741652" duration="79000" />
       <workItem from="1626508302240" duration="3726000" />
-    </task>
-    <task id="LOCAL-00015" summary="Hallo">
-      <created>1616088033655</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1616088033655</updated>
+      <workItem from="1626593428084" duration="1123000" />
+      <workItem from="1626853871763" duration="3479000" />
+      <workItem from="1627286548041" duration="4648000" />
+      <workItem from="1627370243035" duration="5887000" />
+      <workItem from="1627376313240" duration="279000" />
+      <workItem from="1627376604909" duration="5198000" />
+      <workItem from="1627543259414" duration="8650000" />
+      <workItem from="1627628566477" duration="8604000" />
     </task>
     <task id="LOCAL-00016" summary="Hallo">
       <created>1616171473128</created>
@@ -607,7 +629,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626513010688</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary=".">
+      <created>1626593563347</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1626593563347</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

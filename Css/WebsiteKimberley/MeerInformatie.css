@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background: #FA8072 ;
+    background: #374559 ;
 }
 
 header::after {
@@ -25,6 +25,10 @@ header::after {
 .logo {
     float: left;
     padding: 10px 0;
+    height: auto;
+    width: 100%;
+    max-height: 72px;
+    max-width: 250px;
 }
 
 nav {
@@ -46,7 +50,7 @@ nav li {
 }
 
 nav a {
-    color: #444;
+    color: #ffffff;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
@@ -74,12 +78,46 @@ nav a:hover::before {
 }
 
 .InnerText {
-    color: white;
+    color: gray;
     margin: 5% 20%;
     padding: 30px;
-    background-color: #FA8072;
+    background-color: #ffffff;
     border-radius: 25px;
 }
 u {
     color: blue;
+}
+.End {
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 77px;
+
+}
+.Eindestuk {
+    text-align: center;
+    margin-bottom: 2%;
+    color: white;
+
+}
+#myBtn {
+    display: block; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 10px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
 }

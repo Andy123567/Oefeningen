@@ -1,0 +1,20 @@
+.ColorPicker {
+    margin-left: 42%;
+    margin-top: 20%;
+
+}
+
+.Textopmaak {
+    font-size: 20px;
+    font-family: 'Ink Free', sans-serif;
+    color: black;
+    text-align: center;
+}
+.Textopmaak:hover {
+    color: red;
+    font-size: 25px;
+    cursor: pointer;
+}
+#favcolor:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DataList</title>
+    <link rel="stylesheet" href="../Css/DataList.css">
+</head>
+<body>
+<div class="DataList">
+  <label for="PcOnderdeel">Kies jouw PC onderdeel!</label>
+    <input type="text" list="Graphics Cards" name="PcOnderdeel" id="PcOnderdeel">
+
+    <datalist id="Graphics Cards">
+      <label for="Nvidia">Kies een onderdeel</label>
+        <select name="Nvidia" id="Nvidia">
+          <optgroup label="Nvidia">
+            <option value="Nvidia gtx 1050"></option>
+            <option value="Nvidia gtx 1060"></option>
+            <option value="Nvidia gtx 1070"></option>
+            <option value="Nvidia gtx 1080"></option>
+            <option value="Nvidia rtx 2060"></option>
+            <option value="Nvidia rtx 2070"></option>
+            <option value="Nvidia rtx 2080"></option>
+          </optgroup>
+          <optgroup label="AMD">
+            <option value="MSI Aero Radeon RX 560"></option>
+            <option value="AMD Radeon RX 570"></option>
+            <option value="MSI Radeon RX 6700 XT Gaming X"></option>
+            <option value="AMD Radeon RX 5500 XT"></option>
+            <option value="AMD Radeon RX 6800 XT"></option>
+            <option value="AMD Radeon RX 5700 XT"></option>
+            <option value="AMD Radeon RX 5600 XT "></option>
+            <option value="AMD Radeon RX 6700 XT"></option>
+            <option value="AMD Radeon RX 6800"></option>
+          </optgroup>
+        </select>
+
+
+
+
+    </datalist>
+</div>
+</body>
+</html>

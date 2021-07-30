@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
 body {
     margin: 0;
-    background: #222;
+    background-image: url("../../Assets/WebsiteKimberley/conservation-of-nature-1.jpg");
+    background-size: cover;
+    background-position: center;
     font-family: 'Ink Free', sans-serif;
     font-weight: 800;
 }
@@ -25,7 +27,7 @@ header::after {
     float: left;
     padding: 10px 0;
     height: auto;
-    width: auto;
+    width: 100%;
     max-height: 72px;
     max-width: 250px;
 
@@ -78,7 +80,7 @@ nav a:hover::before {
 
 .Prijzenlijst{
     color: white;
-    margin-top: 10px;
+    margin-top: 40px;
     margin-left: 20%;
     margin-right: 20%;
     font-size: 30px;
@@ -94,40 +96,45 @@ p.Hoofd {
     color: black;
     font-size: 20px;
     padding-left: 10px;
-    padding-top: 0;
+    padding-top: 4px;
 }
 
 .Beschrijving1 {
     color: white;
     background-color: #374559;
-    margin: 5px 60% 10% 20%;
+    margin: 70px 60% 10% 20%;
+    height: 360px;
     border-radius: 5px;
-    padding-left: 5px;
+    padding-left: 0;
 
 }
 
 .Beschrijving2 {
     color: white;
     background-color: #374559;
-    margin: -410px 20% 10% 60%;
+    margin: -540px 20% 10% 60%;
+    height: 360px;
     border-radius: 5px;
-    padding-left: 5px;
+    padding-left: 0;
 }
 
 .Beschrijving3 {
     color: white;
     background-color: #374559;
     margin: 5px 60% 10% 20%;
+    height: 350px;
     border-radius: 5px;
-    padding-left: 5px;
+    padding-left: 0;
 }
 
 .Beschrijving4 {
     color: white;
     background-color: #374559;
-    margin: -410px 20% 10% 60%;
+    margin: -530px 20% 10% 60%;
+    height: 360px;
     border-radius: 5px;
-    padding-left: 5px;
+    padding-left: 0;
+
 }
 
 .Extras {
@@ -135,5 +142,91 @@ p.Hoofd {
     background-color: #374559;
     margin: -20px 40% 10% 40%;
     border-radius: 5px;
-    padding: 10px;
+    padding: 5px;
+}
+
+.Maintekst {
+    padding-left: 5px;
+}
+
+.PrijzenFotos1 {
+    padding: 0;
+    width: 100%;
+    height: 150px;
+    margin-top: 5px;
+}
+
+.PrijzenFotos2 {
+    padding: 0;
+    width: 100%;
+    height: 150px;
+    margin-top: -3%;
+}
+
+.PrijzenFotos3 {
+    padding: 0;
+    width: 100%;
+    height: 150px;
+    margin-top: 0.5%;
+}
+
+.PrijzenFotos4 {
+    padding: 0;
+    width: 100%;
+    height: 200px;
+    margin-top: 5%;
+}
+
+.End {
+    background-color: black;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 68px;
+
+}
+.Eindestuk {
+    text-align: center;
+    margin-bottom: 2%;
+    color: white;
+
+}
+#myBtn {
+    display: block; /* Hidden by default */
+    position: absolute; /* Fixed/sticky position */
+    margin-top: -5%; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+#TheButton {
+    display: block; /* Hidden by default */
+    position: absolute; /* Fixed/sticky position */
+    margin-top: -5%;
+    right: 170px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+#TheButton:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
 }
